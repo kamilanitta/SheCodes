@@ -1,6 +1,6 @@
 const alertFunction = (ev) => {
   ev.preventDefault();
-  alert("It is 18 degrees");
+  alert("Sorry! Pepe is busy helping Santa!");
   let btn = document.querySelector("button");
 
   btn.innerText = "18 degrees";
